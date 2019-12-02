@@ -881,7 +881,7 @@ class TicketController extends Controller
     {
         $priority = '1';
 
-        return $prioirty;
+        return $priority;
     }
 
     /**

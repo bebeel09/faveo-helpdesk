@@ -52,7 +52,7 @@ class="active"
  
 <div class="box box-info">
     <div class="box-header with-border">
-        <h3 class="box-title">{!! Lang::get('lang.help_topic') !!}</h3>
+        <h3 class="box-title">{!! Lang::get('lang.help_topic_title') !!}</h3>
     </div>
     <div class="box-body">
         <form id="foo">
@@ -126,8 +126,8 @@ class="active"
                         </div>
                     </div>
                     <div class='col-sm-1'>
-                        {!! Form::label('filter', 'Filter:') !!}<br>
-                        <input type="submit" class="btn btn-primary" value="Submit" id="submit">
+                        {!! Form::label('filter', lang::get('lang.filter')) !!}<br>
+                        <input type="submit" class="btn btn-primary" value="OK" id="submit">
                     </div>
                     <br/>
                     <div class="col-md-4">
@@ -143,9 +143,9 @@ class="active"
                         </div>
                         <div class="pull-right">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-default" id="click_day">Day</button>
-                                <button type="button" class="btn btn-default" id="click_week">Week</button>
-                                <button type="button" class="btn btn-default" id="click_month">Month</button>
+                                <button type="button" class="btn btn-default" id="click_day">{!! Lang::get('lang.day') !!}</button>
+                                <button type="button" class="btn btn-default" id="click_week">{!! Lang::get('lang.week') !!}</button>
+                                <button type="button" class="btn btn-default" id="click_month">{!! Lang::get('lang.month') !!}</button>
                             </div>
                         </div>
                     </div>
@@ -209,7 +209,7 @@ class="active"
 
 <div class="box box-info">
     <div class="box-header with-border">
-        <h3 class="box-title">Tabular</h3>
+        <h3 class="box-title">{!! Lang::get('lang.tabular') !!}</h3>
     </div>
     <div class="box-body">
         <table class="table table-bordered" id="tabular">

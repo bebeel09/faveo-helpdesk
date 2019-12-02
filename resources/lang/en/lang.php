@@ -48,7 +48,7 @@ return [
     'iforgot'                                => 'I forgot my password',
     'email_address'                          => 'Email address',
     'password'                               => 'Password',
-     'password_confirmation'                 => 'Password confirmation',
+    'password_confirmation'                  => 'Password confirmation',
     'woops'                                  => 'Whoops!',
     'theirisproblem'                         => 'There were some problems with your input.',
     'e-mail'                                 => 'Email',

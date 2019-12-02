@@ -13,11 +13,11 @@ return [
     |
     */
 
-    'filename'     => 'ISO CODE',
+    'filename'     => 'ISO код',
     'language'     => 'Язык',
     'Action'       => 'Действие',
-    'status'       => 'stature',
-    'not-active'   => 'Не Активный',
+    'status'       => 'Статус',
+    'not-active'   => 'Не активный',
     'active'       => 'Активный',
     'hello'        => 'Привет',
     'enable'       => 'Включен',
